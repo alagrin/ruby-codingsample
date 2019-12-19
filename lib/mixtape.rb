@@ -18,6 +18,7 @@ module Mixtape
       if playlist["owner_id"] == get_user
         some_songs = playlist["song_ids"].slice(0,2) + change["song_ids"]
         playlist_to_add = {"id" => "4", "owner_id" => get_user, "song_ids" => some_songs}
+        #due to time constraint, added hardcoded id, otherwise random or in order #s
       end
     end
     hash << playlist_to_add
