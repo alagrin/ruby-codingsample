@@ -45,7 +45,6 @@ module Mixtape
     for change in changes_json
       # options included switch statement, these conditionals cleaner w/ small
       # set of changes
-
       if change["type"] == "add_song_to_playlist"
         playlist_to_change = change["playlist_id"]
         self.add_song_to_playlist(playlist_hash, playlist_to_change)
