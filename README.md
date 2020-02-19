@@ -1,8 +1,3 @@
-Highspot Coding Exercise
-===================================
-
-Welcome to the Highspot interview process! For this exercise, you will be creating a command-line batch application. Highspot's product depends on both a rich web service and on batch processing — for internal use, for our customers, and for partner integrations — so this exercise is relevant to real-life Highspot engineering work. During in-person interviews, we may use your code as a discussion point. This should take a few hours to complete.
-
 ## Overview
 
 For this exercise, you would create a console application that applies a batch of changes to an input file in order to create an output file. Let's call it the 'mixtape' application where given an input file which contains information about songs, playlists, and users, the application ingests a set of changes and produces an output file, which contains the changes applied to the input file. 
@@ -21,31 +16,6 @@ You will write the code that processes the specified changes and outputs a new f
  To run your application, run this command:
 
     $ bin/mixtape example/mixtape.json example/changes.json output.json
-
-
-## Background
-
-### Why a take-home exercise?
-
-In our experience take-home exercises, compared to technical phone screens, are more objective, and they facilitate a more equitable interview process.
-
-Furthermore, in the normal course of software development, you have the freedom to mine your previous assignments, search Stack Exchange and Google, solicit advice from friends and relatives, and engage in quiet contemplation in order to solve problems. We do that too, and we'd like to see you exhibit a real-world-style work product.
-
-### How much time should I invest?
-
-Highspot devs have completed this exercise ourselves, and we think that a few hours of development time is reasonable for an experienced engineer. Spend more or less time on this, it's up to you. You can use this exercise to illustrate your talents!
-
-We respect your time and we will accept and review any solution you submit. If you can't invest the time to show us your best work we're open to discussing alternatives.
-
-## Considerations
-
-### Logistics
-
-  * Keep it simple: focus on implementing the set of changes enumerated below. You do not have to handle any other operation types besides the types specified in `changes.json`. 
-  * Assume that other people have to run, read, and support your code, that we're going to run tests against it, and that future assignments will build upon it.
-  * Feel free to use this Ruby project as a starter kit. But if you prefer, use any language, tools, or solutions you see fit.
-
-## OK, let's go!
 
 ### Project Requirements
 
@@ -84,17 +54,3 @@ Bonus:
       or
 
          $ rspec spec/mixtape_spec.rb
-    
-  1. In your README, describe what changes you would need to make in order to scale this application to handle very large input files and/or very large changes files. Just describe the changes — you don't actually need to implement a scaled-up version of the application.
-
-### Project Delivery
-
-Send your working code by email along with your README which should also include instructions for how to run your project, including instructions about any dependencies (e.g. if you decide to not use this project, please specify).  
-
-## What happens next?
-
-After you submit your code, we will evaluate it, and contact you about next steps, which may involve further elaboration on your code submission.
-
-Thanks again for your time and we look forward to receiving your reply.
-
-_The Highspot Engineering Team_
