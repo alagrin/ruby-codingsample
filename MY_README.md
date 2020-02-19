@@ -5,6 +5,6 @@ When thinking about scale, we must make considerations for memory, network, disk
 
 ## Running command
 
-- To run your application, run this command:
-
+- To run your application, run this command when in the project directory:
+    $ bin/setup
     $ bin/mixtape example/mixtape.json example/changes.json output.json
